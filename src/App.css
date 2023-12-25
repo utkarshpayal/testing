@@ -1,0 +1,54 @@
+/* App.css */
+
+/* Styles for the header elements */
+.header-container {
+  background: linear-gradient(#2a00b7, #42006c);
+  color: #ffffff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 50px;
+  height: auto;
+}
+
+.header-data {
+  flex-grow: 1;
+}
+
+.all-pages-name {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+}
+
+.all-pages-name li {
+  text-decoration: none;
+  color: #ffffff; /* Text color of header elements */
+  font-weight: bold;
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+.all-pages-name li:hover {
+  color: #00bbff; /* Hover color of header elements */
+}
+
+/* Add more styles as needed */
+/* Override styles for all links */
+:-webkit-any-link {
+  color: #fff; /* Change to your desired hover color */
+  cursor: pointer;
+  text-decoration: none; /* Remove or customize the underline as needed */
+}
+
+/* Style for hovered links */
+:-webkit-any-link:hover {
+  color: #df8816; /* Change to your desired hover color */
+  text-decoration: underline; /* Add or customize the underline as needed */
+}

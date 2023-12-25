@@ -1,0 +1,45 @@
+/* Service.css */
+
+.services-container {
+    margin: 50px auto;
+    max-width: 800px;
+    text-align: center;
+  }
+  
+  .services-heading {
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 700;
+  }
+  
+  .services-list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  
+  .service-item {
+    max-width: 250px;
+    padding: 20px;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    margin: 10px;
+    transition: transform 0.3s ease; /* Add transition for a smooth hover effect */
+  }
+  
+  .service-item:hover {
+    transform: scale(1.05); /* Scale up the service item on hover */
+  }
+  
+  .service-title {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .service-description {
+    color: #ffffff;
+    font-size: 16px;
+  }
+  

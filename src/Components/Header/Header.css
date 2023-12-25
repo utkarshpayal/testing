@@ -1,0 +1,41 @@
+/* Header.css */
+
+.header-container {
+    background: linear-gradient(#1c005a, #2a00b7);
+    color: #ffffff;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    width: 60px;
+    height: auto;
+}
+
+.header-data {
+    flex-grow: 1;
+}
+
+.all-pages-name {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+}
+
+.all-pages-name li {
+    text-decoration: none;
+    color: #212be3; /* Updated text color to a bright orange */
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+}
+
+.all-pages-name li:hover {
+    color: #00cc99; /* Updated hover color to a teal */
+}
